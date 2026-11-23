@@ -1,0 +1,918 @@
+
+ ===================================================
+  Athena Vortex Lattice  Program      Version  3.52
+  Copyright (C) 2002   Mark Drela, Harold Youngren
+
+  This software comes with ABSOLUTELY NO WARRANTY,
+    subject to the GNU General Public License.
+
+  Caveat computor
+ ===================================================
+
+ ==========================================================
+   Quit    Exit program
+
+  .OPER    Compute operating-point run cases
+  .MODE    Eigenvalue analysis of run cases
+  .TIME    Time-domain calculations
+
+   LOAD f  Read configuration input file
+   MASS f  Read mass distribution file
+   MSHO    Show mass distribution
+   CASE f  Read run case file
+
+   CINI    Clear and initialize run cases
+   MSET i  Apply mass file data to stored run case(s)
+
+  .PLOP    Plotting options
+   NAME s  Specify new configuration name
+
+ AVL   c>  
+ Reading file: model.avl  ...
+
+ Configuration: UAM preliminary modes                                       
+
+   Building surface: Wing                                    
+     Reading airfoil from file: naca23012.dat
+     Reading airfoil from file: naca23012.dat
+     Reading airfoil from file: naca23012.dat
+  
+   Building duplicate image-surface: Wing (YDUP)                             
+
+   Building surface: Horizontal_tail                         
+  
+   Building duplicate image-surface: Horizontal_tail (YDUP)                  
+
+   Building surface: Vertical_tail                           
+
+ Mach =    0.0000
+
+    0 Bodies
+    5 Solid surfaces
+   74 Strips
+  800 Vortices
+
+    3 Control variables
+    0 Design parameters
+
+ Initializing run cases...
+
+ AVL   c>  
+ Mass distribution read ...
+
+ Mass        =    2699.      Munit
+ Mass        =    2699.      kg
+
+ Ref. x,y,z  =   0.4866       0.000     -0.5300E-01  Lunit
+ C.G. x,y,z  =   0.4866       0.000     -0.5300E-01  Lunit
+ C.G. x,y,z  =   0.4866       0.000     -0.5300E-01  m
+
+ Ixx -Ixy -Ixz   |   0.1212E+05  -0.000      -979.1      |
+      Iyy -Iyz = |               0.1261E+05  -0.000      |  kg-m^2
+           Izz   |                           0.2303E+05  |
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ Apparent mass, inertia
+
+ mxx  mxy  mxz   |    0.000       0.000       0.000      |
+      myy  myz = |                7.671     -0.1387E-15  |  kg
+           mzz   |                            68.56      |
+
+ Ixx -Ixy -Ixz   |    761.0     -0.1285E-13  -38.51      |
+      Iyy -Iyz = |                297.9     -0.2332E-15  |  kg-m^2
+           Izz   |                            110.4      |
+
+ Use MSET to apply these mass,inertias to run cases
+
+ AVL   c>  
+ AVL   c>   ...............................................
+
+  G raphics-enable flag         T
+  C olor PostScript output?     T
+  I ndividual PS file output?   F
+  H ardcopy movie PS output?    F
+
+  A spect ratio of plot object   0.7500
+  W indow/screen size fraction   0.7000
+
+  S ize of plot object           9.00"
+  P age dimensions              11.00 x  8.50"
+  M argins from page edges       0.00",  0.00"
+  F ont size (relative)          0.0170
+
+  O rientation of plot:        Landscape 
+  B lowup input method:        Keyboard  
+
+      Option, Value   (or <Return>)    c>   ...............................................
+
+  G raphics-enable flag         F
+  C olor PostScript output?     T
+  I ndividual PS file output?   F
+  H ardcopy movie PS output?    F
+
+  A spect ratio of plot object   0.7500
+  W indow/screen size fraction   0.7000
+
+  S ize of plot object           9.00"
+  P age dimensions              11.00 x  8.50"
+  M argins from page edges       0.00",  0.00"
+  F ont size (relative)          0.0170
+
+  O rientation of plot:        Landscape 
+  B lowup input method:        Keyboard  
+
+      Option, Value   (or <Return>)    c>  
+ AVL   c>  
+ Operation of run case 1/1:   -unnamed-                              
+ ==========================================================
+
+  variable          constraint              
+  ------------      ------------------------
+  A lpha        ->  alpha       =   0.000         
+  B eta         ->  beta        =   0.000         
+  R oll  rate   ->  pb/2V       =   0.000         
+  P itch rate   ->  qc/2V       =   0.000         
+  Y aw   rate   ->  rb/2V       =   0.000         
+  D1  aileron   ->  aileron     =   0.000         
+  D2  elevator  ->  elevator    =   0.000         
+  D3  rudder    ->  rudder      =   0.000         
+  ------------      ------------------------
+
+  C1  set level or banked  horizontal flight constraints
+  C2  set steady pitch rate (looping) flight constraints
+  M odify parameters                                    
+
+ "#" select  run case          L ist defined run cases   
+  +  add new run case          S ave run cases to file   
+  -  delete  run case          F etch run cases from file
+  N ame current run case       W rite forces to file     
+
+ eX ecute run case             I nitialize variables     
+
+  G eometry plot               T refftz Plane plot       
+
+  ST  stability derivatives    FT  total   forces        
+  SB  body-axis derivatives    FN  surface forces        
+  RE  reference quantities     FS  strip   forces (FSB bodyaxes)
+  DE  design changes           FE  element forces        
+  O ptions                     FB  body forces           
+                               HM  hinge moments         
+  OB offbody flow survey       VM  strip shear,moment    
+  MRF  machine-readable format CPOM OML surface pressures
+
+ .OPER (case 1/1)   c>  
+ Operation of run case 1/1:   -unnamed-                              
+ ==========================================================
+
+  variable          constraint              
+  ------------      ------------------------
+  A lpha        ->  alpha       =   2.500         
+  B eta         ->  beta        =   0.000         
+  R oll  rate   ->  pb/2V       =   0.000         
+  P itch rate   ->  qc/2V       =   0.000         
+  Y aw   rate   ->  rb/2V       =   0.000         
+  D1  aileron   ->  aileron     =   0.000         
+  D2  elevator  ->  elevator    =   0.000         
+  D3  rudder    ->  rudder      =   0.000         
+  ------------      ------------------------
+
+  C1  set level or banked  horizontal flight constraints
+  C2  set steady pitch rate (looping) flight constraints
+  M odify parameters                                    
+
+ "#" select  run case          L ist defined run cases   
+  +  add new run case          S ave run cases to file   
+  -  delete  run case          F etch run cases from file
+  N ame current run case       W rite forces to file     
+
+ eX ecute run case             I nitialize variables     
+
+  G eometry plot               T refftz Plane plot       
+
+  ST  stability derivatives    FT  total   forces        
+  SB  body-axis derivatives    FN  surface forces        
+  RE  reference quantities     FS  strip   forces (FSB bodyaxes)
+  DE  design changes           FE  element forces        
+  O ptions                     FB  body forces           
+                               HM  hinge moments         
+  OB offbody flow survey       VM  strip shear,moment    
+  MRF  machine-readable format CPOM OML surface pressures
+
+ .OPER (case 1/1)   c>  
+ Operation of run case 1/1:   -unnamed-                              
+ ==========================================================
+
+  variable          constraint              
+  ------------      ------------------------
+  A lpha        ->  alpha       =   2.500         
+  B eta         ->  beta        =   0.000         
+  R oll  rate   ->  pb/2V       =   0.000         
+  P itch rate   ->  qc/2V       =   0.000         
+  Y aw   rate   ->  rb/2V       =   0.000         
+  D1  aileron   ->  aileron     =   0.000         
+  D2  elevator  ->  Cm pitchmom =   0.000         
+  D3  rudder    ->  rudder      =   0.000         
+  ------------      ------------------------
+
+  C1  set level or banked  horizontal flight constraints
+  C2  set steady pitch rate (looping) flight constraints
+  M odify parameters                                    
+
+ "#" select  run case          L ist defined run cases   
+  +  add new run case          S ave run cases to file   
+  -  delete  run case          F etch run cases from file
+  N ame current run case       W rite forces to file     
+
+ eX ecute run case             I nitialize variables     
+
+  G eometry plot               T refftz Plane plot       
+
+  ST  stability derivatives    FT  total   forces        
+  SB  body-axis derivatives    FN  surface forces        
+  RE  reference quantities     FS  strip   forces (FSB bodyaxes)
+  DE  design changes           FE  element forces        
+  O ptions                     FB  body forces           
+                               HM  hinge moments         
+  OB offbody flow survey       VM  strip shear,moment    
+  MRF  machine-readable format CPOM OML surface pressures
+
+ .OPER (case 1/1)   c>    Building normalwash AIC matrix...
+  Factoring normalwash AIC matrix...
+  Building source+doublet strength AIC matrix...
+  Building source+doublet velocity AIC matrix...
+  Building bound-vortex velocity matrix...
+
+ iter d(alpha)   d(beta)    d(pb/2V)   d(qc/2V)   d(rb/2V)   aileron    elevator   rudder     
+   1 -0.000E+00 -0.000E+00  0.000E+00 -0.000E+00  0.000E+00 -0.000E+00 -0.134E+01 -0.000E+00
+   2 -0.000E+00 -0.000E+00 -0.000E+00 -0.000E+00 -0.000E+00 -0.000E+00  0.365E-04 -0.000E+00
+   3 -0.000E+00 -0.000E+00 -0.000E+00 -0.138E-31 -0.000E+00 -0.000E+00  0.269E-13 -0.000E+00
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: UAM preliminary modes                                       
+     # Surfaces =   5
+     # Strips   =  74
+     # Vortices = 800
+
+  Sref =  27.862       Cref =  1.9465       Bref =  15.830    
+  Xref = 0.48660       Yref =  0.0000       Zref =-0.53000E-01
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   2.50000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =  -0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =  -0.02487     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =   0.00000     Cmtot =  -0.00000
+  CZtot =  -0.31675     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   0.31536
+  CDtot =   0.03866
+  CDvis =   0.03585     CDind = 0.0028092
+  CLff  =   0.31522     CDff  = 0.0034470    | Trefftz
+  CYff  =   0.00000         e =    1.0202    | Plane  
+
+   aileron         =   0.00000
+   elevator        =  -1.34027
+   rudder          =   0.00000
+
+ ---------------------------------------------------------------
+
+ Operation of run case 1/1:   -unnamed-                              
+ ==========================================================
+
+  variable          constraint              
+  ------------      ------------------------
+  A lpha        ->  alpha       =   2.500         
+  B eta         ->  beta        =   0.000         
+  R oll  rate   ->  pb/2V       =   0.000         
+  P itch rate   ->  qc/2V       =   0.000         
+  Y aw   rate   ->  rb/2V       =   0.000         
+  D1  aileron   ->  aileron     =   0.000         
+  D2  elevator  ->  Cm pitchmom =   0.000         
+  D3  rudder    ->  rudder      =   0.000         
+  ------------      ------------------------
+
+  C1  set level or banked  horizontal flight constraints
+  C2  set steady pitch rate (looping) flight constraints
+  M odify parameters                                    
+
+ "#" select  run case          L ist defined run cases   
+  +  add new run case          S ave run cases to file   
+  -  delete  run case          F etch run cases from file
+  N ame current run case       W rite forces to file     
+
+ eX ecute run case             I nitialize variables     
+
+  G eometry plot               T refftz Plane plot       
+
+  ST  stability derivatives    FT  total   forces        
+  SB  body-axis derivatives    FN  surface forces        
+  RE  reference quantities     FS  strip   forces (FSB bodyaxes)
+  DE  design changes           FE  element forces        
+  O ptions                     FB  body forces           
+                               HM  hinge moments         
+  OB offbody flow survey       VM  strip shear,moment    
+  MRF  machine-readable format CPOM OML surface pressures
+
+ .OPER (case 1/1)   c>  
+     .. setting new velocity for run case  1
+     .. setting new turn radius for run case  1
+     .. setting new load factor for run case  1
+
+     Setup of trimmed run case 1/1:   -unnamed-                              
+     (level or banked horizontal flight)
+     =================================================
+      B  bank angle =  0.000      deg
+      C  CL         =  1.5       
+      V  velocity   =  44.4       m/s
+      M  mass       =  2699.      kg
+      D  air dens.  =  1.167      kg/m^3
+      G  grav.acc.  =  9.810      m/s^2
+         turn rad.  =  0.000      m
+         load fac.  =  1.000       
+      X  X_cg       = 0.4866      Lunit
+      Y  Y_cg       =  0.000      Lunit
+      Z  Z_cg       = -.5300E-01  Lunit
+
+     Enter parameter, value  (or  # - + N )   c>  
+ Operation of run case 1/1:   -unnamed-                              
+ ==========================================================
+
+  variable          constraint              
+  ------------      ------------------------
+  A lpha        ->  CL          =   1.500           
+  B eta         ->  beta        =   0.000         
+  R oll  rate   ->  pb/2V       =   0.000         
+  P itch rate   ->  qc/2V       =   0.000         
+  Y aw   rate   ->  rb/2V       =   0.000         
+  D1  aileron   ->  aileron     =   0.000         
+  D2  elevator  ->  Cm pitchmom =   0.000         
+  D3  rudder    ->  rudder      =   0.000         
+  ------------      ------------------------
+
+  C1  set level or banked  horizontal flight constraints
+  C2  set steady pitch rate (looping) flight constraints
+  M odify parameters                                    
+
+ "#" select  run case          L ist defined run cases   
+  +  add new run case          S ave run cases to file   
+  -  delete  run case          F etch run cases from file
+  N ame current run case       W rite forces to file     
+
+ eX ecute run case             I nitialize variables     
+
+  G eometry plot               T refftz Plane plot       
+
+  ST  stability derivatives    FT  total   forces        
+  SB  body-axis derivatives    FN  surface forces        
+  RE  reference quantities     FS  strip   forces (FSB bodyaxes)
+  DE  design changes           FE  element forces        
+  O ptions                     FB  body forces           
+                               HM  hinge moments         
+  OB offbody flow survey       VM  strip shear,moment    
+  MRF  machine-readable format CPOM OML surface pressures
+
+ .OPER (case 1/1)   c>  
+ iter d(alpha)   d(beta)    d(pb/2V)   d(qc/2V)   d(rb/2V)   aileron    elevator   rudder     
+   1  0.731E-17 -0.000E+00  0.000E+00 -0.000E+00  0.000E+00 -0.000E+00 -0.404E-16 -0.000E+00
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: UAM preliminary modes                                       
+     # Surfaces =   5
+     # Strips   =  74
+     # Vortices = 800
+
+  Sref =  27.862       Cref =  1.9465       Bref =  15.830    
+  Xref = 0.48660       Yref =  0.0000       Zref =-0.53000E-01
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   2.50000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =  -0.02487     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =   0.00000     Cmtot =  -0.00000
+  CZtot =  -0.31675     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   0.31536
+  CDtot =   0.03866
+  CDvis =   0.03585     CDind = 0.0028092
+  CLff  =   0.31522     CDff  = 0.0034470    | Trefftz
+  CYff  =   0.00000         e =    1.0202    | Plane  
+
+   aileron         =   0.00000
+   elevator        =  -1.34027
+   rudder          =   0.00000
+
+ ---------------------------------------------------------------
+
+ Operation of run case 1/1:   -unnamed-                              
+ ==========================================================
+
+  variable          constraint              
+  ------------      ------------------------
+  A lpha        ->  CL          =  0.3154         
+  B eta         ->  beta        =   0.000         
+  R oll  rate   ->  pb/2V       =   0.000         
+  P itch rate   ->  qc/2V       =   0.000         
+  Y aw   rate   ->  rb/2V       =   0.000         
+  D1  aileron   ->  aileron     =   0.000         
+  D2  elevator  ->  Cm pitchmom =   0.000         
+  D3  rudder    ->  rudder      =   0.000         
+  ------------      ------------------------
+
+  C1  set level or banked  horizontal flight constraints
+  C2  set steady pitch rate (looping) flight constraints
+  M odify parameters                                    
+
+ "#" select  run case          L ist defined run cases   
+  +  add new run case          S ave run cases to file   
+  -  delete  run case          F etch run cases from file
+  N ame current run case       W rite forces to file     
+
+ eX ecute run case             I nitialize variables     
+
+  G eometry plot               T refftz Plane plot       
+
+  ST  stability derivatives    FT  total   forces        
+  SB  body-axis derivatives    FN  surface forces        
+  RE  reference quantities     FS  strip   forces (FSB bodyaxes)
+  DE  design changes           FE  element forces        
+  O ptions                     FB  body forces           
+                               HM  hinge moments         
+  OB offbody flow survey       VM  strip shear,moment    
+  MRF  machine-readable format CPOM OML surface pressures
+
+ .OPER (case 1/1)   c>  
+     .. setting new turn radius for run case  1
+     .. setting new load factor for run case  1
+
+     Setup of trimmed run case 1/1:   -unnamed-                              
+     (level or banked horizontal flight)
+     =================================================
+      B  bank angle =  0.000      deg
+      C  CL         = 0.3154       
+      V  velocity   =  71.85      m/s
+      M  mass       =  2699.      kg
+      D  air dens.  =  1.167      kg/m^3
+      G  grav.acc.  =  9.810      m/s^2
+         turn rad.  =  0.000      m
+         load fac.  =  1.000       
+      X  X_cg       = 0.4866      Lunit
+      Y  Y_cg       =  0.000      Lunit
+      Z  Z_cg       = -.5300E-01  Lunit
+
+     Enter parameter, value  (or  # - + N )   c>  
+ Operation of run case 1/1:   -unnamed-                              
+ ==========================================================
+
+  variable          constraint              
+  ------------      ------------------------
+  A lpha        ->  CL          =  0.3154         
+  B eta         ->  beta        =   0.000         
+  R oll  rate   ->  pb/2V       =   0.000         
+  P itch rate   ->  qc/2V       =   0.000         
+  Y aw   rate   ->  rb/2V       =   0.000         
+  D1  aileron   ->  aileron     =   0.000         
+  D2  elevator  ->  Cm pitchmom =   0.000         
+  D3  rudder    ->  rudder      =   0.000         
+  ------------      ------------------------
+
+  C1  set level or banked  horizontal flight constraints
+  C2  set steady pitch rate (looping) flight constraints
+  M odify parameters                                    
+
+ "#" select  run case          L ist defined run cases   
+  +  add new run case          S ave run cases to file   
+  -  delete  run case          F etch run cases from file
+  N ame current run case       W rite forces to file     
+
+ eX ecute run case             I nitialize variables     
+
+  G eometry plot               T refftz Plane plot       
+
+  ST  stability derivatives    FT  total   forces        
+  SB  body-axis derivatives    FN  surface forces        
+  RE  reference quantities     FS  strip   forces (FSB bodyaxes)
+  DE  design changes           FE  element forces        
+  O ptions                     FB  body forces           
+                               HM  hinge moments         
+  OB offbody flow survey       VM  strip shear,moment    
+  MRF  machine-readable format CPOM OML surface pressures
+
+ .OPER (case 1/1)   c>  
+ iter d(alpha)   d(beta)    d(pb/2V)   d(qc/2V)   d(rb/2V)   aileron    elevator   rudder     
+   1  0.731E-17 -0.000E+00  0.000E+00 -0.000E+00  0.000E+00 -0.000E+00 -0.404E-16 -0.000E+00
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: UAM preliminary modes                                       
+     # Surfaces =   5
+     # Strips   =  74
+     # Vortices = 800
+
+  Sref =  27.862       Cref =  1.9465       Bref =  15.830    
+  Xref = 0.48660       Yref =  0.0000       Zref =-0.53000E-01
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   2.50000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =  -0.02487     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =   0.00000     Cmtot =  -0.00000
+  CZtot =  -0.31675     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   0.31536
+  CDtot =   0.03866
+  CDvis =   0.03585     CDind = 0.0028092
+  CLff  =   0.31522     CDff  = 0.0034470    | Trefftz
+  CYff  =   0.00000         e =    1.0202    | Plane  
+
+   aileron         =   0.00000
+   elevator        =  -1.34027
+   rudder          =   0.00000
+
+ ---------------------------------------------------------------
+
+ Operation of run case 1/1:   -unnamed-                              
+ ==========================================================
+
+  variable          constraint              
+  ------------      ------------------------
+  A lpha        ->  CL          =  0.3154         
+  B eta         ->  beta        =   0.000         
+  R oll  rate   ->  pb/2V       =   0.000         
+  P itch rate   ->  qc/2V       =   0.000         
+  Y aw   rate   ->  rb/2V       =   0.000         
+  D1  aileron   ->  aileron     =   0.000         
+  D2  elevator  ->  Cm pitchmom =   0.000         
+  D3  rudder    ->  rudder      =   0.000         
+  ------------      ------------------------
+
+  C1  set level or banked  horizontal flight constraints
+  C2  set steady pitch rate (looping) flight constraints
+  M odify parameters                                    
+
+ "#" select  run case          L ist defined run cases   
+  +  add new run case          S ave run cases to file   
+  -  delete  run case          F etch run cases from file
+  N ame current run case       W rite forces to file     
+
+ eX ecute run case             I nitialize variables     
+
+  G eometry plot               T refftz Plane plot       
+
+  ST  stability derivatives    FT  total   forces        
+  SB  body-axis derivatives    FN  surface forces        
+  RE  reference quantities     FS  strip   forces (FSB bodyaxes)
+  DE  design changes           FE  element forces        
+  O ptions                     FB  body forces           
+                               HM  hinge moments         
+  OB offbody flow survey       VM  strip shear,moment    
+  MRF  machine-readable format CPOM OML surface pressures
+
+ .OPER (case 1/1)   c>  
+Enter filename, or <return> for screen output   s>   ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: UAM preliminary modes                                       
+     # Surfaces =   5
+     # Strips   =  74
+     # Vortices = 800
+
+  Sref =  27.862       Cref =  1.9465       Bref =  15.830    
+  Xref = 0.48660       Yref =  0.0000       Zref =-0.53000E-01
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   2.50000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =  -0.02487     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =   0.00000     Cmtot =  -0.00000
+  CZtot =  -0.31675     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   0.31536
+  CDtot =   0.03866
+  CDvis =   0.03585     CDind = 0.0028092
+  CLff  =   0.31522     CDff  = 0.0034470    | Trefftz
+  CYff  =   0.00000         e =    1.0202    | Plane  
+
+   aileron         =   0.00000
+   elevator        =  -1.34027
+   rudder          =   0.00000
+
+ ---------------------------------------------------------------
+
+ Stability-axis derivatives...
+
+                             alpha                beta
+                  ----------------    ----------------
+ z' force CL |    CLa =   5.934454    CLb =  -0.000000
+ y  force CY |    CYa =   0.000000    CYb =  -0.414789
+ x  force CD |    CDa =   0.107631    CDb =   0.000000
+ x' mom.  Cl'|    Cla =  -0.000000    Clb =  -0.057205
+ y  mom.  Cm |    Cma =  -0.977720    Cmb =   0.000000
+ z' mom.  Cn'|    Cna =  -0.000000    Cnb =   0.070599
+
+                     roll rate  p'      pitch rate  q'        yaw rate  r'
+                  ----------------    ----------------    ----------------
+ z' force CL |    CLp =   0.000000    CLq =  10.656201    CLr =  -0.000000
+ y  force CY |    CYp =  -0.089835    CYq =   0.000000    CYr =   0.206918
+ x  force CD |    CDp =  -0.000000    CDq =   0.191343    CDr =  -0.000000
+ x' mom.  Cl'|    Clp =  -0.533154    Clq =  -0.000000    Clr =   0.086703
+ y  mom.  Cm |    Cmp =  -0.000000    Cmq =  -7.142620    Cmr =   0.000000
+ z' mom.  Cn'|    Cnp =  -0.022526    Cnq =  -0.000000    Cnr =  -0.037263
+
+                  aileron      d01     elevator     d02     rudder       d03 
+                  ----------------    ----------------    ----------------
+ z' force CL |   CLd01 =  -0.000000   CLd02 =   0.018752   CLd03 =   0.000000
+ y  force CY |   CYd01 =  -0.000471   CYd02 =   0.000000   CYd03 =  -0.004732
+ x  force CD |   CDd01 =   0.000000   CDd02 =   0.000373   CDd03 =   0.000000
+ x' mom.  Cl'|   Cld01 =  -0.005388   Cld02 =  -0.000000   Cld03 =  -0.000255
+ y  mom.  Cm |   Cmd01 =   0.000000   Cmd02 =  -0.024570   Cmd03 =   0.000000
+ z' mom.  Cn'|   Cnd01 =   0.000137   Cnd02 =  -0.000000   Cnd03 =   0.001018
+ Trefftz drag| CDffd01 =   0.000000 CDffd02 =   0.000399 CDffd03 =  -0.000000
+ span eff.   |    ed01 =   0.000000    ed02 =   0.003114    ed03 =   0.000000
+
+
+
+ Neutral point  Xnp =   0.807297
+
+ Clb Cnr / Clr Cnb  =   0.348240    (  > 1 if spirally stable )
+
+ Operation of run case 1/1:   -unnamed-                              
+ ==========================================================
+
+  variable          constraint              
+  ------------      ------------------------
+  A lpha        ->  CL          =  0.3154         
+  B eta         ->  beta        =   0.000         
+  R oll  rate   ->  pb/2V       =   0.000         
+  P itch rate   ->  qc/2V       =   0.000         
+  Y aw   rate   ->  rb/2V       =   0.000         
+  D1  aileron   ->  aileron     =   0.000         
+  D2  elevator  ->  Cm pitchmom =   0.000         
+  D3  rudder    ->  rudder      =   0.000         
+  ------------      ------------------------
+
+  C1  set level or banked  horizontal flight constraints
+  C2  set steady pitch rate (looping) flight constraints
+  M odify parameters                                    
+
+ "#" select  run case          L ist defined run cases   
+  +  add new run case          S ave run cases to file   
+  -  delete  run case          F etch run cases from file
+  N ame current run case       W rite forces to file     
+
+ eX ecute run case             I nitialize variables     
+
+  G eometry plot               T refftz Plane plot       
+
+  ST  stability derivatives    FT  total   forces        
+  SB  body-axis derivatives    FN  surface forces        
+  RE  reference quantities     FS  strip   forces (FSB bodyaxes)
+  DE  design changes           FE  element forces        
+  O ptions                     FB  body forces           
+                               HM  hinge moments         
+  OB offbody flow survey       VM  strip shear,moment    
+  MRF  machine-readable format CPOM OML surface pressures
+
+ .OPER (case 1/1)   c>  
+Enter filename, or <return> for screen output   s>   ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: UAM preliminary modes                                       
+     # Surfaces =   5
+     # Strips   =  74
+     # Vortices = 800
+
+  Sref =  27.862       Cref =  1.9465       Bref =  15.830    
+  Xref = 0.48660       Yref =  0.0000       Zref =-0.53000E-01
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   2.50000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =  -0.02487     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =   0.00000     Cmtot =  -0.00000
+  CZtot =  -0.31675     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   0.31536
+  CDtot =   0.03866
+  CDvis =   0.03585     CDind = 0.0028092
+  CLff  =   0.31522     CDff  = 0.0034470    | Trefftz
+  CYff  =   0.00000         e =    1.0202    | Plane  
+
+   aileron         =   0.00000
+   elevator        =  -1.34027
+   rudder          =   0.00000
+
+ ---------------------------------------------------------------
+
+ Geometry-axis derivatives...
+
+                    axial   vel. u     sideslip vel. v      normal  vel. w
+                  ----------------    ----------------    ----------------
+ x force CX  |    CXu =  -0.070111    CXv =  -0.000000    CXw =   0.465464
+ y force CY  |    CYu =  -0.000000    CYv =  -0.450643    CYw =   0.000000
+ z force CZ  |    CZu =  -0.372998    CZv =  -0.000000    CZw =  -5.980333
+ x mom.  Cl  |    Clu =   0.000000    Clv =  -0.060230    Clw =  -0.000000
+ y mom.  Cm  |    Cmu =   0.042648    Cmv =   0.000000    Cmw =  -0.976790
+ z mom.  Cn  |    Cnu =  -0.000000    Cnv =   0.068036    Cnw =  -0.000000
+
+                      roll rate  p       pitch rate  q         yaw rate  r
+                  ----------------    ----------------    ----------------
+ x force CX  |    CXp =   0.000000    CXq =   0.273656    CXr =   0.000000
+ y force CY  |    CYp =  -0.098775    CYq =   0.000000    CYr =   0.202803
+ z force CZ  |    CZp =  -0.000000    CZq = -10.654405    CZr =  -0.000000
+ x mom.  Cl  |    Clp =  -0.535007    Clq =  -0.000000    Clr =   0.064971
+ y mom.  Cm  |    Cmp =  -0.000000    Cmq =  -7.142620    Cmr =  -0.000000
+ z mom.  Cn  |    Cnp =  -0.044257    Cnq =  -0.000000    Cnr =  -0.035410
+
+                  aileron      d01     elevator     d02     rudder       d03 
+                  ----------------    ----------------    ----------------
+ x force CX  |   CXd01 =  -0.000000   CXd02 =   0.000445   CXd03 =   0.000000
+ y force CY  |   CYd01 =  -0.000471   CYd02 =   0.000000   CYd03 =  -0.004732
+ z force CZ  |   CZd01 =   0.000000   CZd02 =  -0.018750   CZd03 =  -0.000000
+ x mom.  Cl  |   Cld01 =  -0.005389   Cld02 =  -0.000000   Cld03 =  -0.000299
+ y mom.  Cm  |   Cmd01 =   0.000000   Cmd02 =  -0.024570   Cmd03 =   0.000000
+ z mom.  Cn  |   Cnd01 =  -0.000098   Cnd02 =  -0.000000   Cnd03 =   0.001006
+
+
+
+ Operation of run case 1/1:   -unnamed-                              
+ ==========================================================
+
+  variable          constraint              
+  ------------      ------------------------
+  A lpha        ->  CL          =  0.3154         
+  B eta         ->  beta        =   0.000         
+  R oll  rate   ->  pb/2V       =   0.000         
+  P itch rate   ->  qc/2V       =   0.000         
+  Y aw   rate   ->  rb/2V       =   0.000         
+  D1  aileron   ->  aileron     =   0.000         
+  D2  elevator  ->  Cm pitchmom =   0.000         
+  D3  rudder    ->  rudder      =   0.000         
+  ------------      ------------------------
+
+  C1  set level or banked  horizontal flight constraints
+  C2  set steady pitch rate (looping) flight constraints
+  M odify parameters                                    
+
+ "#" select  run case          L ist defined run cases   
+  +  add new run case          S ave run cases to file   
+  -  delete  run case          F etch run cases from file
+  N ame current run case       W rite forces to file     
+
+ eX ecute run case             I nitialize variables     
+
+  G eometry plot               T refftz Plane plot       
+
+  ST  stability derivatives    FT  total   forces        
+  SB  body-axis derivatives    FN  surface forces        
+  RE  reference quantities     FS  strip   forces (FSB bodyaxes)
+  DE  design changes           FE  element forces        
+  O ptions                     FB  body forces           
+                               HM  hinge moments         
+  OB offbody flow survey       VM  strip shear,moment    
+  MRF  machine-readable format CPOM OML surface pressures
+
+ .OPER (case 1/1)   c>  
+ AVL   c>             3 Ixx         kg-m^2                          
+
+  Run-case parameters for eigenmode analyses ... 
+  
+   run   alpha     beta      CL        CDo       bank      velocity  density   turn_rad. load_fac. X_cg      Z_cg      mass      Ixx       Iyy       Izz      
+         deg       deg                           deg       m/s       kg/m^3    m                   Lunit     Lunit     kg        kg-m^2    kg-m^2    kg-m^2   
+ >  1    2.50      0.00     0.315     0.359E-01  0.00      71.9      1.17      0.00      1.00     0.487    -0.530E-01 0.270E+04 0.121E+05 0.126E+05 0.230E+05
+ ==========================================================
+
+ "#" select run case for eigenmode analysis (0 = all)
+
+  M odify parameters
+
+  N ew eigenmode calculation
+
+  P lot root locus
+  B lowup window
+  R eset to normal size
+ eX amine selected eigenmode
+
+  A nnotate current plot
+  H ardcopy current plot
+  T ime-integration parameters
+  G enerate hardcopy movie toggle  F
+
+  S ystem matrix output
+  W rite eigenvalues to file
+  D ata file overlay toggle
+
+  Z oom
+  U nzoom
+
+ .MODE   c>  
+ iter d(alpha)   d(beta)    d(pb/2V)   d(qc/2V)   d(rb/2V)   aileron    elevator   rudder     
+   1  0.731E-17 -0.000E+00  0.000E+00 -0.000E+00  0.000E+00 -0.000E+00 -0.404E-16 -0.000E+00
+
+
+ Run case  1:   -unnamed-                              
+
+  mode 1:  -6.12841       0.00000    
+ u  :     0.0000     0.0000      v  :     0.6621     0.0000      x  : -0.2570E-17   0.000    
+ w  :    -0.0000     0.0000      p  :    -0.8181     0.0000      y  : -0.4244E-01   0.000    
+ q  :     0.0000     0.0000      r  :    -0.0700     0.0000      z  :  0.1941E-16   0.000    
+ the:    -0.0000     0.0000      phi:    -0.1335     0.0000      psi: -0.1143E-01   0.000    
+
+  mode 2: -0.194847       2.06447    
+ u  :    -0.0000     0.0000      v  :   -12.2496   -21.8454      x  :  0.1045E-16 -0.4825E-17
+ w  :     0.0000     0.0000      p  :    -0.1933    -0.2797      y  : -0.8392     -0.6586    
+ q  :    -0.0000    -0.0000      r  :     0.6111    -0.3534      z  :  0.2968E-15  0.9242E-16
+ the:    -0.0000     0.0000      phi:     0.1255    -0.1055      psi:  0.1973      0.2774    
+
+  mode 3: -0.194847      -2.06447    
+ u  :    -0.0000    -0.0000      v  :   -12.2496    21.8454      x  :  0.1045E-16  0.4825E-17
+ w  :     0.0000    -0.0000      p  :    -0.1933     0.2797      y  : -0.8392      0.6586    
+ q  :    -0.0000     0.0000      r  :     0.6111     0.3534      z  :  0.2968E-15 -0.9242E-16
+ the:    -0.0000    -0.0000      phi:     0.1255     0.1055      psi:  0.1973     -0.2774    
+
+  mode 4:  0.776327E-02   0.00000    
+ u  :    -0.0000     0.0000      v  :    -0.6032     0.0000      x  : -0.1534E-13   0.000    
+ w  :     0.0000     0.0000      p  :     0.0075     0.0000      y  : -0.1575E+06   0.000    
+ q  :    -0.0000     0.0000      r  :     0.1325     0.0000      z  : -0.4495E-14   0.000    
+ the:    -0.0000     0.0000      phi:    -0.9675     0.0000      psi:  -17.06       0.000    
+
+  mode 5:  -1.87353       3.30020    
+ u  :    -0.1830     0.3870      v  :     0.0000    -0.0000      x  :  0.2476E-01  0.1514    
+ w  :     2.5693   -16.1479      p  :     0.0000     0.0000      y  : -0.1415E-15 -0.2087E-15
+ q  :    -0.8371     0.0301      r  :     0.0000     0.0000      z  :  -2.025      -2.148    
+ the:     0.1158     0.1879      phi:    -0.0000     0.0000      psi: -0.3507E-17  0.3178E-16
+
+  mode 6:  -1.87353      -3.30020    
+ u  :    -0.1830    -0.3870      v  :     0.0000     0.0000      x  :  0.2476E-01 -0.1514    
+ w  :     2.5693    16.1479      p  :     0.0000    -0.0000      y  : -0.1415E-15  0.2087E-15
+ q  :    -0.8371    -0.0301      r  :     0.0000    -0.0000      z  :  -2.025       2.148    
+ the:     0.1158    -0.1879      phi:    -0.0000    -0.0000      psi: -0.3507E-17 -0.3178E-16
+
+  mode 7: -0.164937E-01  0.176390    
+ u  :     3.3106    16.4386      v  :    -0.0000    -0.0000      x  :   88.54      -32.20    
+ w  :     0.1175     0.3365      p  :    -0.0000     0.0000      y  :  0.1461E-13 -0.6474E-14
+ q  :    -0.0115    -0.0526      r  :     0.0000    -0.0000      z  :   50.06       112.5    
+ the:    -0.2897     0.0925      phi:    -0.0000     0.0000      psi:  0.1214E-16  0.4371E-16
+
+  mode 8: -0.164937E-01 -0.176390    
+ u  :     3.3106   -16.4386      v  :    -0.0000     0.0000      x  :   88.54       32.20    
+ w  :     0.1175    -0.3365      p  :    -0.0000    -0.0000      y  :  0.1461E-13  0.6474E-14
+ q  :    -0.0115     0.0526      r  :     0.0000     0.0000      z  :   50.06      -112.5    
+ the:    -0.2897    -0.0925      phi:    -0.0000    -0.0000      psi:  0.1214E-16 -0.4371E-16
+
+  Run-case parameters for eigenmode analyses ... 
+  
+   run   alpha     beta      CL        CDo       bank      velocity  density   turn_rad. load_fac. X_cg      Z_cg      mass      Ixx       Iyy       Izz      
+         deg       deg                           deg       m/s       kg/m^3    m                   Lunit     Lunit     kg        kg-m^2    kg-m^2    kg-m^2   
+ >  1    2.50      0.00     0.315     0.359E-01  0.00      71.9      1.17      0.00      1.00     0.487    -0.530E-01 0.270E+04 0.121E+05 0.126E+05 0.230E+05
+ ==========================================================
+
+ "#" select run case for eigenmode analysis (0 = all)
+
+  M odify parameters
+
+  N ew eigenmode calculation
+
+  P lot root locus
+  B lowup window
+  R eset to normal size
+ eX amine selected eigenmode
+
+  A nnotate current plot
+  H ardcopy current plot
+  T ime-integration parameters
+  G enerate hardcopy movie toggle  F
+
+  S ystem matrix output
+  W rite eigenvalues to file
+  D ata file overlay toggle
+
+  Z oom
+  U nzoom
+
+ .MODE   c>  
+ AVL   c>  

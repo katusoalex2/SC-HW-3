@@ -1,0 +1,25 @@
+load model.avl
+mass model.mass
+mset 1
+plop
+g
+
+oper
+a a 2.5
+d2 pm 0
+x
+c1
+
+x
+c1
+
+x
+st
+
+sb
+
+
+mode
+n
+
+quit

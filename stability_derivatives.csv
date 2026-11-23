@@ -1,0 +1,49 @@
+group,symbol,value,units
+Angles,CLa,5.934454,per radian
+Angles,CLb,-0.000000,per radian
+Angles,CYa,0.000000,per radian
+Angles,CYb,-0.414789,per radian
+Angles,CDa,0.107631,per radian
+Angles,CDb,0.000000,per radian
+Angles,Cla,-0.000000,per radian
+Angles,Clb,-0.057205,per radian
+Angles,Cma,-0.977720,per radian
+Angles,Cmb,0.000000,per radian
+Angles,Cna,-0.000000,per radian
+Angles,Cnb,0.070599,per radian
+Rates,CLp,0.000000,per nondimensional rate
+Rates,CLq,10.656201,per nondimensional rate
+Rates,CLr,-0.000000,per nondimensional rate
+Rates,CYp,-0.089835,per nondimensional rate
+Rates,CYq,0.000000,per nondimensional rate
+Rates,CYr,0.206918,per nondimensional rate
+Rates,CDp,-0.000000,per nondimensional rate
+Rates,CDq,0.191343,per nondimensional rate
+Rates,CDr,-0.000000,per nondimensional rate
+Rates,Clp,-0.533154,per nondimensional rate
+Rates,Clq,-0.000000,per nondimensional rate
+Rates,Clr,0.086703,per nondimensional rate
+Rates,Cmp,-0.000000,per nondimensional rate
+Rates,Cmq,-7.142620,per nondimensional rate
+Rates,Cmr,0.000000,per nondimensional rate
+Rates,Cnp,-0.022526,per nondimensional rate
+Rates,Cnq,-0.000000,per nondimensional rate
+Rates,Cnr,-0.037263,per nondimensional rate
+Controls,CLd01,-0.000000,per degree
+Controls,CLd02,0.018752,per degree
+Controls,CLd03,0.000000,per degree
+Controls,CYd01,-0.000471,per degree
+Controls,CYd02,0.000000,per degree
+Controls,CYd03,-0.004732,per degree
+Controls,CDd01,0.000000,per degree
+Controls,CDd02,0.000373,per degree
+Controls,CDd03,0.000000,per degree
+Controls,Cld01,-0.005388,per degree
+Controls,Cld02,-0.000000,per degree
+Controls,Cld03,-0.000255,per degree
+Controls,Cmd01,0.000000,per degree
+Controls,Cmd02,-0.024570,per degree
+Controls,Cmd03,0.000000,per degree
+Controls,Cnd01,0.000137,per degree
+Controls,Cnd02,-0.000000,per degree
+Controls,Cnd03,0.001018,per degree

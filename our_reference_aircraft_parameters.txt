@@ -1,0 +1,44 @@
+
+Parameter				Value
+Max Takeoff Weight (MTOM)		2,699.03 kg
+Wing Loading (W/S)			950 N/m²
+Aspect Ratio (AR)			9.0
+Cruise Speed	160 km/h 		(44.44 m/s)
+Cruise Altitude			450 m
+Air Density (ρ)				1.1673 kg/m³
+Oswald Efficiency (e)		0.78
+Zero-Lift Drag (C_D0)		0.035854
+Max Lift Coefficient (C_(L,max))	1.50
+Certification Constraint		5% – 15% Static Margin
+Weight (W)				 26,450.5" N" 
+Reference Area (S_"ref" )		27.84 m²
+Wingspan (b)				 15.83 m
+Airfoil Selection 			NACA 23012 for main wing and
+ NACA 0012 FOR  tail wing
+Main Wing Taper Ratio (λ) 		 0.45
+Wing area 				 27.862
+Root Chord (C_"root" ) 		 2.5620 m
+Tip Chord (C_"tip" )			 1.1529 m 
+Mean Aerodynamic Chord (MAC)	 1.94653 m
+Horizontal Tail:
+Tail Volume Coefficient (V_H)	0.75 
+Tail Span (b_h):			 6.52
+Tail Area (S_h): 			10.628
+Tail Arm (l_t)				7m 
+root chord 					2.2484m
+tip  chord 					1.0118m
+Vertical Tail:
+Tail Volume Coefficient (V_V)	 0.06
+Tail Area (S_v)				 4.868m²
+Vertical tail span (bv)		 	2.96
+Tail Arm (l_t) 				7 m
+root chord 					2.268m
+tip choord					1.0208m
+
+Inertia Tensor: (Estimated based on an 8-fuselage length) 
+Buildup: Total Mass=2699.03, CG=(-0.368, 0.000, -0.053)
+Buildup: Ixx=12121.2, Iyy=12610.9, Izz=23029.8, Ixz=979.1
+Initial CG Location: To meet the 5-15% static margin, we will start with the CG at 25% MAC (X = 0.4866 m from the wing leading edge)
+Ailerons: 20% chord, outboard 50%; 
+Elevator & Rudder: 30% chord, full span
+Dihedral Angle: 3 degrees
